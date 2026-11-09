@@ -1,0 +1,22 @@
+# Secrets
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local database and uploaded projects (do not commit user data)
+hoster.db
+hoster.db-*
+user_projects/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+logs.txt
