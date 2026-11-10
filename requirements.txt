@@ -1,0 +1,8 @@
+# ── Telegram bot framework (HTTPX-based, no aiohttp needed) ──
+python-telegram-bot>=21.6,<22.0
+
+# ── HTTP client (also a PTB dependency, pinned for safety) ──
+httpx>=0.27.0,<0.29.0
+
+# ── Used only in the fatal-crash notify path in __main__ ──
+requests>=2.31.0,<3.0
