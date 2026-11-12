@@ -1,6 +1,0 @@
-__pycache__/
-*.pyc
-.env
-tron_cache.json
-lottery_history.json
-predictions.json
